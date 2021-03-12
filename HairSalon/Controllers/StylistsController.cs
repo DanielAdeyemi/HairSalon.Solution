@@ -19,5 +19,11 @@ namespace HairSalon.Controllers
       ICollection<Stylist> model = _db.Stylists.ToList();
       return View(model);
     }
+
+    public ActionResult Details(int id)
+    {
+      Stylist stylist = _db.Stylists.FirstOrDefault(stylist=>stylist.StylistId == id);
+      return View();
+    }
   }
 }
