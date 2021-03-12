@@ -6,6 +6,7 @@
 @model HairSalon.Models.Stylist;
 
 <h2>Info about @Html.DisplayFor(model=>model.Name): </h2>
+<h3>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)<h3>
 
 @if (Model.Clients.Count == 0)
 {
