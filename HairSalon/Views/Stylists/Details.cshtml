@@ -6,7 +6,6 @@
 @model HairSalon.Models.Stylist;
 
 <h2>Info about @Html.DisplayFor(model=>model.Name): </h2>
-<h3>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)<h3>
 
 @if (Model.Clients.Count == 0)
 {
@@ -15,7 +14,7 @@
 
 @foreach (Client client in Model.Clients)
 {
-  <li>Client: @Html.Display(@client.Name)</li>
+  <li>Client: @client.Name</li>
 }
 
 <button class="btn btn-success">@Html.ActionLink("Return to all stylists", "Index")</button>
