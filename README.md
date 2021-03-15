@@ -11,7 +11,7 @@
 <div style="text-align:center"><img src="https://www.yourelitewriter.com/wp-content/uploads/2019/10/ceiling-chairs-indoors-705255.jpg" alt="Bakery image" width="300"/></div>
 
 ___
-## <div align="center"> Table of Content: 
+## <div align="center"> Table of Contents: 
 | [Description](#description) | [Setup and Installation instructions](#setup) |  [SQL setup instructions](#sql) |
 | :-------------: |  :------------: | :-------------: |
 | [User story](#story) | [Technology used](#technology) | [Known bugs](#bugs) |
