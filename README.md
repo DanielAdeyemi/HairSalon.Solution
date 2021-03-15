@@ -20,12 +20,12 @@ ___
 </div>
 
 <a name="description"></a>
-## 🚩 *Description*:    
+## <div align="center"> 🚩 *Description*:</div>    
 ### *Looking to ease your workflow in salon? Check our app!*
 ##### *An MVC app to manage employees and their clients. User will be able to add a list of stylists working at the salon, and for each stylist, add clients who see that stylist. Each client can only belong to single stylist.*
 
 <a name="setup"></a>
-## 🔧 *Setup/Installation instructions:*
+## <div align="center"> 🔧 *Setup/Installation instructions:*
 #### 🌐 From the web:
 * Go to my GitHub repository, using following [URL](https://github.com/DanielAdeyemi/HairSalon.Solution.git).
 * * At the top of the repository, click <img src="https://i.imgur.com/Ej9Dphm.png" alt="Code Button" height="20" align="center" /> then select "Download ZIP".
@@ -40,7 +40,7 @@ ___
 ⚠️ *Note: To run this project locally you will need to have .NET Core. You can check if you have .NET Core by running `dotnet --version` in the command line. If you do not have .NET Core please find more information and download [here](https://dotnet.microsoft.com/download/dotnet).*
 
 <a name="sql"></a>
-## 🗃️ SQL setup and connection to the application
+## <div align="center"> 🗃️ SQL setup and connection to the application
 * In your terminal start using mysql by running command: `mysql -u[YOUR-USERNAME] -p[YOUR-PASSWORD]` 
 * run command `SOURCE [PATH-TO-THE-PROJECT]/daniel_adeyemi.sql` to recreate database and tables.
 * inside `HairSalon` folder create **appsettings.json** file and input following information:    
@@ -55,7 +55,7 @@ ___
 
 
 <a name="story"></a>
-<h3> 😴 📖Story:</h3> 
+<h3 align="center"> 😴 📖Story:</h3> 
 <details>
 <summary>🔽</summary>
 
@@ -71,12 +71,12 @@ ___
 
 <a name="view"></a>
 
-####  🖥️ View website:
+### <div align="center">  🖥️ View website:
 *GitHub page is not available for this project. To view functionality you need to run `dotnet run` from **HairSalon** folder. After that you will see `http://localhost:5000`, click on that link and it will open web appliction in your default browser. In order to exit from local host use **Ctrl+C** command.*
 
 <a name="technology"></a>
 
-## 🛠️ *Technologies used:*
+## <div align="center"> 🛠️ *Technologies used:*
 * C# 9
 * .NET 5.0
 * ASP.NET Core MVC
@@ -92,22 +92,22 @@ ___
 
 <a name="bugs"></a>
 
-## 🐛 *Known bugs:*
+## <div align="center"> 🐛 *Known bugs:*
 This project was used to practice building web applications with SQL database, Entity Framework. Application has basic style.
 
 <a name="improvement"></a>
 
-## 🌟 *Improvement opportunities:*
+## <div align="center"> 🌟 *Improvement opportunities:*
 * add more style to the pages
 
 <a name="contact"></a>
 
-## 📬 Contact Information
+##  <div align="center"> 📬 Contact Information
 #### For any questions *[email author](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
 
 <a name="license"></a>
 
-## 📘 *License and copyright:*
+## <div align="center"> 📘 *License and copyright:*
 
 > ***© Daniel Adeyemi, 2021***  
 > ⚖️ *[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)*
