@@ -13,20 +13,21 @@
 ___
 ## Table of Content:
 1. [Description](#description)
-2. [Setup and Installation instructions](#Setup/Installation-instructions)
+2. [Setup and Installation instructions](#setup)
 3. [User story](#story)
-4. [View Website](#view-website)
-5. [Technology used](#technology-used)
-6. [Known bugs](#known-bugs)
-7. [Improvement opportunities](#improvement-opportunities)
-8. [Contact information](#contact-information)
-9. [License and copiright](#license-and-copyright)
+4. [View Website](#view)
+5. [Technology used](#technology)
+6. [Known bugs](#bugs)
+7. [Improvement opportunities](#improvement)
+8. [Contact information](#contact)
+9. [License and copiright](#license)
 
+<a name="description"></a>
 ## 🚩 *Description*:    
 ### *Looking to ease your workflow in salon? Check our app!*
 ##### *An MVC app to manage employees and their clients. User will be able to add a list of stylists working at the salon, and for each stylist, add clients who see that stylist. Each client can only belong to single stylist.*
 
-
+<a name="setup"></a>
 ## 🔧 *Setup/Installation instructions:*
 #### 🌐 From the web:
 * Go to my GitHub repository, using following [URL](https://github.com/DanielAdeyemi/HairSalon.Solution.git).
@@ -41,6 +42,7 @@ ___
 * Execute **code .** command in your terminal and it will open all source code in your code editor.    
 ⚠️ *Note: To run this project locally you will need to have .NET Core. You can check if you have .NET Core by running `dotnet --version` in the command line. If you do not have .NET Core please find more information and download [here](https://dotnet.microsoft.com/download/dotnet).*
 
+<a name="story"></a>
 <details>
 <summary><h3> 😴 📖Story:</h3> </summary>
 
@@ -54,8 +56,12 @@ ___
 
 </details>
 
+<a name="view"></a>
+
 ####  🖥️ View website:
 *GitHub page is not available for this project. To view functionality you need to run `dotnet run` from **HairSalon** folder. After that you will see `http://localhost:5000`, click on that link and it will open web appliction in your default browser. In order to exit from local host use **Ctrl+C** command.*
+
+<a name="technology"></a>
 
 ## 🛠️ *Technologies used:*
 * C# 9
@@ -71,17 +77,22 @@ ___
 * MySQL and MySQL Workbench
 * Entity
 
+<a name="bugs"></a>
+
 ## 🐛 *Known bugs:*
 This project was used to practice building web applications with SQL database, Entity Framework. Application has basic style.
+
+<a name="improvement"></a>
 
 ## 🌟 *Improvement opportunities:*
 * add more style to the pages
 
+<a name="contact"></a>
 
 ## 📬 Contact Information
 #### For any questions *[email author](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
 
-
+<a name="license"></a>
 
 ## 📘 *License and copyright:*
 
