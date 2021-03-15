@@ -12,7 +12,7 @@
     @Html.LabelFor(model => model.Name)
       @Html.TextBoxFor(model=> model.Name, new { @required="required"})
     @Html.LabelFor(model => model.Stylist)
-    @Html.DropDownList("StylistId", (SelectList)ViewBag.MyList, "Please select stylist from the list or add if list is empty", new { @class = "form-control" , @required = "required"})
+      @Html.DropDownList("StylistId", (SelectList)ViewBag.MyList, "Please select stylist from the list or add one first if list is empty", new { @class = "form-control" , @required = "required"})
     <input type="submit" value="Add new client" class="btn btn-success" />
   }
 }
