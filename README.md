@@ -39,7 +39,7 @@ ___
 ⚠️ *Note: To run this project locally you will need to have .NET Core. You can check if you have .NET Core by running `dotnet --version` in the command line. If you do not have .NET Core please find more information and download [here](https://dotnet.microsoft.com/download/dotnet).*
 
 <a name="sql"></a>
-## SQL setup and connection to the application
+## 🗃️ SQL setup and connection to the application
 * In your terminal start using mysql by running command: `mysql -u[YOUR-USERNAME] -p[YOUR-PASSWORD]` 
 * run command `SOURCE [PATH-TO-THE-PROJECT]/daniel_adeyemi.sql` to recreate database and tables.
 * inside `HairSalon` folder create **appsettings.json** file and input following information:    
