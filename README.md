@@ -11,6 +11,17 @@
 <div style="text-align:center"><img src="https://www.yourelitewriter.com/wp-content/uploads/2019/10/ceiling-chairs-indoors-705255.jpg" alt="Bakery image" width="300"/></div>
 
 ___
+## Table of Content:
+1. [Description](#description)
+2. [Setup and Installation instructions](#Setup/Installation-instructions)
+3. [User story](#story)
+4. [View Website](#view-website)
+5. [Technology used](#technology-used)
+6. [Known bugs](#known-bugs)
+7. [Improvement opportunities](#improvement-opportunities)
+8. [Contact information](#contact-information)
+9. [License and copiright](#license-and-copyright)
+
 ## 🚩 *Description*:    
 ### *Looking to ease your workflow in salon? Check our app!*
 ##### *An MVC app to manage employees and their clients. User will be able to add a list of stylists working at the salon, and for each stylist, add clients who see that stylist. Each client can only belong to single stylist.*
