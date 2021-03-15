@@ -12,9 +12,9 @@
 
 ___
 ## Table of Content:
-| [Description](#description) | [Setup and Installation instructions](#setup) |  [User story](#story) |
-| :------------- |  :------------: | :-------------: |
-|[SQL setup instructions](#sql)  | [Technology used](#technology) | [Known bugs](#bugs) |
+| [Description](#description) | [Setup and Installation instructions](#setup) |  [SQL setup instructions](#sql) |
+| :-------------: |  :------------: | :-------------: |
+| [User story](#story) | [Technology used](#technology) | [Known bugs](#bugs) |
 | [Improvement opportunities](#improvement) | [Contact information](#contact)| [View Website](#view) |
 | [License and copiright](#license) | |  |
 
@@ -54,8 +54,9 @@ ___
 
 
 <a name="story"></a>
+<h3> 😴 📖Story:</h3> 
 <details>
-<summary><h3> 😴 📖Story:</h3> </summary>
+<summary>🔽</summary>
 
 | # | Story |  Complete |
 | :------------- |  :------------: | :-------------: |
@@ -76,17 +77,17 @@ ___
 
 ## 🛠️ *Technologies used:*
 * C# 9
-* .NET Core v5.0
-* ASP.NET MVC
+* .NET 5.0
+* ASP.NET Core MVC
 * Razor View Egine
 * RESTful Routing, CRUD & HTTP
-* CSHTML
+* CSHTML and CSS
 * Bootstrap v.4.6.x
 * MSTest
 * REPL
 * Git and GitHub
 * MySQL and MySQL Workbench
-* Entity
+* Entity Framework Core
 
 <a name="bugs"></a>
 
