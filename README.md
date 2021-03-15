@@ -12,15 +12,11 @@
 
 ___
 ## Table of Content:
-1. [Description](#description)
-2. [Setup and Installation instructions](#setup)
-3. [User story](#story)
-4. [View Website](#view)
-5. [Technology used](#technology)
-6. [Known bugs](#bugs)
-7. [Improvement opportunities](#improvement)
-8. [Contact information](#contact)
-9. [License and copiright](#license)
+| [Description](#description) | [Setup and Installation instructions](#setup) |  [User story](#story) |
+| :------------- |  :------------: | :-------------: |
+|[SQL setup instructions](#sql)  | [Technology used](#technology) | [Known bugs](#bugs) |
+| [Improvement opportunities](#improvement) | [Contact information](#contact)| [View Website](#view) |
+| [License and copiright](#license) | |  |
 
 <a name="description"></a>
 ## 🚩 *Description*:    
@@ -41,6 +37,21 @@ ___
 * Navigate to the downloaded folder using ***cd*** command
 * Execute **code .** command in your terminal and it will open all source code in your code editor.    
 ⚠️ *Note: To run this project locally you will need to have .NET Core. You can check if you have .NET Core by running `dotnet --version` in the command line. If you do not have .NET Core please find more information and download [here](https://dotnet.microsoft.com/download/dotnet).*
+
+<a name="sql"></a>
+## SQL setup and connection to the application
+* In your terminal start using mysql by running command: `mysql -u[YOUR-USERNAME] -p[YOUR-PASSWORD]` 
+* run command `SOURCE [PATH-TO-THE-PROJECT]/daniel_adeyemi.sql` to recreate database and tables.
+* inside `HairSalon` folder create **appsettings.json** file and input following information:    
+```
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Port=3306;database=daniel_adeyemi;uid=[YOUR-ACCOUNT-NAME];pwd=[YOUR-PASSWORD];"
+  }
+}
+```
+⚠️ *Note: Don't include **[ ]** around your username or password in any of the examples above.*
+
 
 <a name="story"></a>
 <details>
