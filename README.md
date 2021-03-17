@@ -52,7 +52,7 @@ ___
 }
 ```
 ⚠️ *Note: Don't include **[ ]** around your username or password in any of the examples above.*    
-If you need to set up SQL database from scratch - click on details below:
+***If you need to set up SQL database from scratch - click on details below:***
 <details>
 <summury>Details to set up DB </summary>
 
