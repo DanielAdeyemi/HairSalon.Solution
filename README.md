@@ -51,7 +51,21 @@ ___
   }
 }
 ```
-⚠️ *Note: Don't include **[ ]** around your username or password in any of the examples above.*
+⚠️ *Note: Don't include **[ ]** around your username or password in any of the examples above.*    
+If you need to set up SQL database from scratch - click on details below:
+<details>
+<summury>Details to set up DB </summary>
+
+- You need to have MySqlWorkbench installed on your machine. You can download it [here](https://www.mysql.com/products/workbench/)   
+- In the navigator > Administration window, select Data Import/Restore   
+- In Import Options select Import from Self-Contained File.   
+- Navigate to daniel_adeyemi.sql in the HairSalon.Solutions directory   
+- Under Default Schema to be Imported To, select the New button.   
+- Enter the name of your database   
+- Click ok   
+- Click Start Import   
+- Reopen the Navigator > Schemas tab and refresh the schemas(using `Refresh All`). 
+</details>
 
 
 <a name="story"></a>
